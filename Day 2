@@ -2,7 +2,7 @@ Day 2: Understanding Primitive Data Types and How To Manipulate Strings
 # data types, numbers, operations, type conversion, f-strings
 
 # strings in python
-# string = sequence of unicode text orcharacters
+# string = sequence of unicode text or characters
 "Hello"
 
 # subscripting in python
