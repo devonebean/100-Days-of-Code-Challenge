@@ -80,3 +80,9 @@ score = 0
 height = 1.8
 is_winning = True
 print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
+
+# life in weeks project
+# create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old
+# it will take your current age as the input and output a message with our time left in this format:
+# you have x days, y weeks, and z months left
+# where x, y and z are replaced with the actual calculated numbers
