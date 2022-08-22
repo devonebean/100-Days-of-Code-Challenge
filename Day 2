@@ -34,3 +34,26 @@ print("Hello"[0])
 # two_digit_number = input("Type a two digit number: ")
 print( type( two_digit_number) )
 # answer output: <class 'str'>
+
+# type conversion in python
+# data types in python must be converted to same data types before concatenating
+# write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
+# two_digit_number = input("Type a two digit number: ")
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
+result = int(first_digit) + int(second_digit)
+print(result)
+
+# mathematical operations in python
+# add +
+print(14 + 34)
+# subtract -
+print(6 - 5)
+# multiply *
+print(4 * 9)
+# divide /
+print(6 / 3)
+#exponent ** 
+print(2 ** 2)
+# PEMDAS(LR)
+print(3 * 3 + 3 / 3 - 3)
