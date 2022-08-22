@@ -1,2 +1,30 @@
-Day 2: Understanding Data Types and How To Manipulate Strings
+Day 2: Understanding Primitive Data Types and How To Manipulate Strings
+# data types, numbers, operations, type conversion, f-strings
+
+# strings in python
+# string = sequence of unicode text orcharacters
+"Hello"
+
+# subscripting in python
+# subscripting = used to access the elements of a string
+# subscript operator is defined as square brackets []
+# write a program that only ouputs the H in Hello
+print("Hello"[0])
+# programmers always start counting at 0
+
+# integers in python
+# integer = whole number
+# 211 or 356_467_067
+# underscores _ replace commas , in python integers
+
+# floats in python
+# float = floating point number or decimal
+3.14159
+
+# booleans in python
+# boolean = used to represent the truth value of an expression
+# True or False
+# a == a (True)
+# a != b (True)
+# a == b (False)
 
