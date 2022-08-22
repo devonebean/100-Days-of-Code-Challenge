@@ -36,7 +36,7 @@ print( type( two_digit_number) )
 # answer output: <class 'str'>
 
 # type conversion in python
-# data types in python must be converted to same data types before concatenating
+# data types in python must be converted to same data type before concatenating
 # write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 # two_digit_number = input("Type a two digit number: ")
 first_digit = two_digit_number[0]
