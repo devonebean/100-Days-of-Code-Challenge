@@ -65,3 +65,7 @@ print(3 * (3 + 3) / 3 - 3)
 # the BMI is a measure of some's weight taking into account their height
 # e.g. if a tall person and a short person both weigh the same amount, the short person is usually more overweight
 # the BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m): BMI = weight(kg) / height(m) ** 2
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+BMI = int(weight) / float(height) ** 2
+print(BMI)
