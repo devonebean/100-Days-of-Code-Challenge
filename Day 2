@@ -59,3 +59,9 @@ print(2 ** 2)
 print(3 * 3 + 3 / 3 - 3)
 # utilize () to prioritize a calculation
 print(3 * (3 + 3) / 3 - 3)
+
+# BMI calculator projet
+# write a program that calculates the body mass index (BMI) from a user's weight and height
+# the BMI is a measure of some's weight taking into account their height
+# e.g. if a tall person and a short person both weigh the same amount, the short person is usually more overweight
+# the BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m): BMI = weight(kg) / height(m) ** 2
