@@ -14,7 +14,7 @@ print("Hello"[0])
 
 # integers in python
 # integer = whole number
-# 211 or 356_467_067
+211 or 356_467_067
 # underscores _ replace commas , in python integers
 
 # floats in python
@@ -53,7 +53,7 @@ print(6 - 5)
 print(4 * 9)
 # divide /
 print(6 / 3)
-#exponent ** 
+# exponent ** 
 print(2 ** 2)
 # PEMDAS(LR)
 print(3 * 3 + 3 / 3 - 3)
