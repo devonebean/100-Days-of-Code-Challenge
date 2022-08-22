@@ -80,7 +80,7 @@ print(bmi_as_int)
 score = 0
 height = 1.8
 is_winning = True
-print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
+print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}.")
 
 # life in weeks project
 # create a program using maths and f-strings that tells us how many days, weeks, months we have left if we live until 90 years old
