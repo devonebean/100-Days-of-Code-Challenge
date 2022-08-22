@@ -67,5 +67,9 @@ print(3 * (3 + 3) / 3 - 3)
 # the BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m): BMI = weight(kg) / height(m) ** 2
 # height = input("enter your height in m: ")
 # weight = input("enter your weight in kg: ")
-BMI = int(weight) / float(height) ** 2
-print(BMI)
+bmi = int(weight) / float(height) ** 2
+print(bmi)
+# convert the result to a integer
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi)
+print(bmi_as_int)
