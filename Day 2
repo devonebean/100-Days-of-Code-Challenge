@@ -74,5 +74,9 @@ bmi = int(weight) / float(height) ** 2
 bmi_as_int = int(bmi)
 print(bmi_as_int)
 
-# number manipulation and f strings in python
-# 
+# number manipulation and f-strings in python
+# f-string concatenates various data types in python with f and {}
+score = 0
+height = 1.8
+is_winning = True
+print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
