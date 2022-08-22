@@ -76,7 +76,7 @@ bmi_as_int = int(bmi)
 print(bmi_as_int)
 
 # number manipulation and f-strings in python
-# f-string concatenates various data types in python with f and {}
+# f-string concatenates various data types in python by using f and {}
 score = 0
 height = 1.8
 is_winning = True
