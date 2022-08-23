@@ -53,8 +53,8 @@ else:
 # over 25 but below 30 they are slightly overweight
 # over 30 but below 35 they are obese
 # above 35 they are clinically obese
-height = float( input("enter your height in m: ") )
-weight = float( input("enter your weight in kg: ") )
+height = float( input("Enter your height in m: ") )
+weight = float( input("Enter your weight in kg: ") )
 bmi = round(weight / height ** 2)
 if bmi < 18.5:
   print(f"Your BMI is {bmi}, you are underweight.")
