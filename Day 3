@@ -1,4 +1,37 @@
 Day 3: Control Flow and Logical Operators
 # conditional statements, logical operators, code blocks, scope
 
-#
+# conditional statements in python
+# conditional statements are defined as if / else 
+# use conditional statements to control flow
+# write a program to replace a ticket box
+print("Welcome to the rollercoaster!")
+height = int( input("What is your height in cm?") )
+if height >= 120:
+  print("You can ride the rollercoaster!")
+else:
+  print("Sorry, you have to grow taller before you can ride.")
+# lines below if / else statements are indented
+
+# comparison operators
+# > grater than
+# < less than
+# >= greater than or equal to
+# <= less than or equal to
+# == equal to
+# != not equal to
+
+# modulo in python
+# the modulo is written as a percentage sign % in python
+# modulo gives you the remainder after a division e.g.:
+# 6 ÷ 2 = 3 with no remainder, therefore: 6 % 2 = 0
+# 5 ÷ 2 = 2 x 2 + 1, remainder is 1, therefore: 5 % 2 = 1
+# 14 ÷ 4 = 3 x 4 + 2, remainder is 2, therefore: 14 % 4 = 2
+
+# odd or even project
+# write a program that works out whether if a given number is an odd or even number
+number = int( input("Which number do you want to check? ") )
+if number % 2 == 0:
+  print("This is an even number.")
+else:
+  print("This is an odd number")
