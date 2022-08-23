@@ -71,7 +71,6 @@ print(3 * (3 + 3) / 3 - 3)
 bmi = int(weight) / float(height) ** 2
 print(bmi)
 # convert the result to an integer
-bmi = int(weight) / float(height) ** 2
 bmi_as_int = int(bmi)
 print(bmi_as_int)
 
