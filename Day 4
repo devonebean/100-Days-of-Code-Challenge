@@ -3,3 +3,7 @@ Day 4: Randomisation and Python Lists
 
 # modules in python
 # modules are files with the ".py" extension containing python code that can be imported inside another python program
+# implement a random number python module into your code
+import random
+random_integer = random.randint(1, 10)
+print(random_integer)
