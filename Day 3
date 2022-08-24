@@ -117,3 +117,13 @@ if height >= 120:
   print(f"Your final bill is ${bill}")
 else:
   print("Sorry, you have to grow taller before you can ride.")
+
+# pizza order project
+# build an automatic pizza order program
+# based on a user's order, work out their final bill
+# small pizza: $15
+# medium pizza: $20
+# large pizza: $25
+# pepperoni for small pizza: +$2
+# pepperoni for medium or large pizza: +$3
+# extra cheese for any size pizza: + $1
