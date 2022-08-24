@@ -240,7 +240,7 @@ elif (love_score >= 40) and (love_score <= 50):
 else:
   print(f"Your love score is {love_score}.")
   
-# treasure island game project
+# adventure game project
 # program an adventure game using conditionals
 print('''
 *******************************************************************************
