@@ -4,7 +4,7 @@ Day 1: Working with Variables in Python to Manage Data
 # printing to console in python
 # print function in python
 print("Hello world!")
-# write a program in main.py that prints:
+# write a program that prints:
 # Day 1 - Python Print Function
 # The function is declared like this:
 # print('what to print')
@@ -54,13 +54,13 @@ print(length)
 
 # variable values
 # write a program that switches the values stored in the variables a and b:
-# a = input("a: ")
-# b = input("b: ")
+a = input("a: ")
+b = input("b: ")
 c = a
 a = b
 b = c
-# print("a: " + a)
-# print("b: " + b)
+print("a: " + a)
+print("b: " + b)
 
 # band name generator project
 # create a greeting for your program
