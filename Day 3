@@ -146,3 +146,11 @@ if add_pepperoni == "Y":
 if extra_cheese == "Y":
   bill += 1
 print(f"Your final bill is: ${bill}.")
+
+# logical operators in python
+# used to perform logical operations on the values of the variables
+# and, or, not
+# A and B
+# C or D
+# not E
+# ^^^output = True or False
