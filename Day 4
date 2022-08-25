@@ -1,5 +1,5 @@
 Day 4: Randomisation and Python Lists
-# common python modules in askpython.com
+# modules, common python modules in askpython.com, data structures, lists
 
 # modules in python
 # modules are files with the ".py" extension containing python code that can be imported inside another python program
@@ -16,3 +16,30 @@ if random_side == 1:
   print("Heads")
 else:
   print("Tails")
+
+# lists in python
+# lists always start with an open square bracket [ and a closing square bracket ]
+fruits = ["cherry", "apple", "pear'"]
+# extract data out of an index list (starting from the beginning of list)
+print(fruits[1])
+# extract data out of an index list (starting from the end of list)
+print(fruits[-2])
+# alter a data item within a data list index
+fruits[1] = lemon
+print(fruits)
+# add an item to the end of a data index list
+fruits.append("watermelon")
+
+# append function in python
+# append function is used to add an item to the end of a data list index
+# add an item to the end of a data list index
+fruits = ["cherry", "apple", "pear'"]
+fruits.append("watermelon")
+print(fruits)
+
+# extend function in python
+# extend function in python is used to add a list or multiple items to the end of a data list index
+# add a list to the end of a data list index
+fruits = ["cherry", "apple", "pear'"]
+fruits.axtend(["watermelon", "orange", blackberry"])
+print(fruits)
