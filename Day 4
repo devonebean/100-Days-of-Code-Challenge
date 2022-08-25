@@ -9,7 +9,7 @@ Day 4: Randomisation and Python Lists
 import random
 random_integer = random.randint(1, 10)
 print(random_integer)
-# write a program that can be used for heads or tails if you don't have a coin
+# write a virtual coin toss program that will randomly tell the user "heads" or "tails"
 import random
 random_side = random.randint(0, 1)
 if random_side == 1:
@@ -43,3 +43,33 @@ print(fruits)
 fruits = ["cherry", "apple", "pear'"]
 fruits.axtend(["watermelon", "orange", blackberry"])
 print(fruits)
+
+# split method in python
+# split allows you to split a string into separate components based on some sort of divider
+# directly convert into a list by separating out the commas using str.split(',)
+str_inp = "Hello,from,Python"
+op = str_inp.split(",")
+print(op)
+
+# random bill pay project
+# write a program that will select a random name from a list of names where the person selected will have to pay for everybody's food bill
+import random
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+num_items = len(names)
+random_choice = random.randint(0, num_items - 1)
+person_who_will_pay = names[random_choice]
+print(person_who_will_pay + " is going to buy the meal today!")
+# write a simplified program using the choice function that will select a random name from a list of names where the person selected will have to pay for everybody's food bill
+import random
+person_who_will_pay = random.choice(names)
+print(person_who_will_pay + " is going to buy the meal today!")
+
+# nested lists in python
+# a list within a list (used to categorize)
+# dirty dozen list = strawberries, spinach, kale, nectarines, apples, grapes, peaches, cherries, pears, tomatoes, celery, potatoes
+fruits = ["strawberries", "nectarines", "apples", "grapes", "peaches", "cherries", "pears"]
+vegetables = ["spinach", "kale", "tomatoes", "celery", "potatoes"]
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+
