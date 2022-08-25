@@ -29,6 +29,7 @@ fruits[1] = lemon
 print(fruits)
 # add an item to the end of a data index list
 fruits.append("watermelon")
+print(fruits)
 
 # append function in python
 # append function is used to add an item to the end of a data list index
@@ -73,3 +74,66 @@ vegetables = ["spinach", "kale", "tomatoes", "celery", "potatoes"]
 dirty_dozen = [fruits, vegetables]
 print(dirty_dozen)
 
+# treasure map project
+# write a program that will mark a spot on a map with an X using a two-digit system
+# the first digit is the vertical location and the second digit is the horizontal location
+row1 = ["⬜️","️⬜️","️⬜️"]
+row2 = ["⬜️","⬜️","️⬜️"]
+row3 = ["⬜️️","⬜️️","⬜️️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+selected_row = (map[vertical - 1])
+selected_row[horizontal - 1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
+
+# rock paper scissors game project
+# write a virtual rock paper scissors game program
+import random
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+game_images = [rock, paper, scissors]
+user_choice = int( input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n") )
+if user_choice >= 3 or user_choice < 0:
+  print("You typed an invalid number, you lose!")
+else:
+  print(game_images[user_choice])
+  computer_choice = random.randint(0, 2)
+  print(f"Computer chose:")
+  print(game_images[computer_choice])
+  if user_choice == 0 and computer_choice == 2:
+    print("You win!")
+  elif computer_choice == 0 and user_choice ==2:
+    print("You lose!")
+  elif computer_choice > user_choice:
+    print("You lose!")
+  elif computer_choice > user_choice:
+    print("You win!")
+  elif computer_choice == user_choice:
+    print("It's a draw!")
