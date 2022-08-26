@@ -2,7 +2,7 @@ Day 4: Randomisation and Python Lists
 # modules, common python modules in askpython.com, data structures, lists
 
 # modules in python
-# modules are files with the ".py" extension containing python code that can be imported inside another python program
+# modules = files with the ".py" extension containing python code that can be imported inside another python program
 
 # random module
 # implement a random number python module into your code
@@ -18,6 +18,7 @@ else:
   print("Tails")
 
 # lists in python
+# lists = a data structure in python that is a mutable, or changeable, ordered sequence of elements
 # lists always start with an open square bracket [ and a closing square bracket ]
 fruits = ["cherry", "apple", "pear'"]
 # extract data out of an index list (starting from the beginning of list)
@@ -32,21 +33,21 @@ fruits.append("watermelon")
 print(fruits)
 
 # append function in python
-# append function is used to add an item to the end of a data list index
+# append function = used to add an item to the end of a data list index
 # add an item to the end of a data list index
 fruits = ["cherry", "apple", "pear'"]
 fruits.append("watermelon")
 print(fruits)
 
 # extend function in python
-# extend function in python is used to add a list or multiple items to the end of a data list index
+# extend function = used to add a list or multiple items to the end of a data list index
 # add a list to the end of a data list index
 fruits = ["cherry", "apple", "pear'"]
 fruits.axtend(["watermelon", "orange", blackberry"])
 print(fruits)
 
 # split method in python
-# split allows you to split a string into separate components based on some sort of divider
+# split = allows you to split a string into separate components based on some sort of divider
 # directly convert into a list by separating out the commas using str.split(',)
 str_inp = "Hello,from,Python"
 op = str_inp.split(",")
@@ -67,7 +68,7 @@ person_who_will_pay = random.choice(names)
 print(person_who_will_pay + " is going to buy the meal today!")
 
 # nested lists in python
-# a list within a list (used to categorize)
+# nested lists = a list within a list (used to categorize)
 # dirty dozen list = strawberries, spinach, kale, nectarines, apples, grapes, peaches, cherries, pears, tomatoes, celery, potatoes
 fruits = ["strawberries", "nectarines", "apples", "grapes", "peaches", "cherries", "pears"]
 vegetables = ["spinach", "kale", "tomatoes", "celery", "potatoes"]
