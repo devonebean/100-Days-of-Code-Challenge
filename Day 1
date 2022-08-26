@@ -1,8 +1,9 @@
 Day 1: Working with Variables in Python to Manage Data
 # printing, commenting, debugging, string manipulation, variables
 
-# printing to console in python
 # print function in python
+# print function prints the specified message to the screen or standard output device
+# printing to console in python
 print("Hello world!")
 # write a program that prints:
 # Day 1 - Python Print Function
