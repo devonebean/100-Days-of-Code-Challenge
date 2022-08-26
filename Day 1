@@ -2,7 +2,7 @@ Day 1: Working with Variables in Python to Manage Data
 # printing, commenting, debugging, string manipulation, variables
 
 # print function in python
-# print function prints the specified message to the screen or standard output device
+# print function = prints the specified message to the console output
 # printing to console in python
 print("Hello world!")
 # write a program that prints:
@@ -34,13 +34,13 @@ print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
 # input function in python
-# input() will get user input in console
+# input() = get user input in console
 input("What is your name?")
 # then print() will print "string text" and the user input
 print("Hello " + input("What is your name? "))
 
 # lenth function in python
-# len() will get the length of the given string
+# len() = get the length of the given string
 # write a program that prints the number of characters in a user's name
 print( len( input("What is your name?") ) )
 
