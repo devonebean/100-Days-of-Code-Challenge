@@ -32,7 +32,7 @@ else:
 
 # modulo in python
 # the modulo is written as a percentage sign % in python
-# modulo gives you the remainder after a division e.g.:
+# modulo = gives you the remainder after a division e.g.:
 # 6 ÷ 2 = 3 with no remainder, therefore: 6 % 2 = 0
 # 5 ÷ 2 = 2 x 2 + 1, remainder is 1, therefore: 5 % 2 = 1
 # 14 ÷ 4 = 3 x 4 + 2, remainder is 2, therefore: 14 % 4 = 2
@@ -94,7 +94,7 @@ if year % 4 == 0:
 else:
   print("Not leap year.")
 
-# roller coaster photo booth
+# roller coaster photo booth project
 # write a program that determines whether or not a customer wants a photo after the roller coaster ride and add the charge to the total bill
 print("Welcome to the rollercoaster!")
 height = int( input("What is your height in cm? ") )
@@ -148,7 +148,7 @@ if extra_cheese == "Y":
 print(f"Your final bill is: ${bill}.")
 
 # logical operators in python
-# used to perform logical operations on the values of the variables
+# logical operators = used to perform logical operations on the values of the variables
 # and, or, not
 # A and B
 # C or D
