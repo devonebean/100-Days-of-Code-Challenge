@@ -5,8 +5,8 @@ Day 6: Python Functions and Karel
 # defining function = defines your own function
 # def my_function():
 # do this
-#     then do this
-#     finally do this
+     # then do this
+     # finally do this
 def my_function():
     print("Hello")
     print("Bye)
@@ -36,3 +36,7 @@ def jump_hurdle():
     turn_left()
 for step in range(6):
     jump_hurdle()
+
+# while loop in python
+# while loop = used to iterate over a block of code as long as the test expression (condition) is true
+# 
