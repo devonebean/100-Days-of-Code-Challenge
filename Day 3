@@ -87,8 +87,8 @@ if year % 4 == 0:
     if year % 100 == 0:
         if year % 400 == 0:
             print("Leap year.")
-      else:
-          peint("Not leap year.")
+        else:
+            print("Not leap year.")
     else:
         print("Leap year.")
 else:
@@ -275,8 +275,8 @@ if choice1 == "left":
         print("It's a room full of fire. Game Over.")
         elif choice3 == "yellow":
             print("You found the treasure! You Win!")
-      elif choice3 == "blue":
-          print("You chose a door that doesn't exist. Game Over") 
+        elif choice3 == "blue":
+            print("You chose a door that doesn't exist. Game Over") 
     else:
         print("You got attacked by an angry trout. Game Over.")  
 else:
