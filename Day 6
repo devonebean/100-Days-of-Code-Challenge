@@ -102,4 +102,4 @@ while not at_goal():
     else:
         turn_left()
 # code has edge case infinite loop bug
-# debug the infinite loop after Day 15
+# debug potential infinite loop after day 15
