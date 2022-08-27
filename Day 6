@@ -39,4 +39,11 @@ for step in range(6):
 
 # while loop in python
 # while loop = used to iterate over a block of code as long as the test expression (condition) is true
-# 
+# while something_is_true
+     # do this
+     # then do this
+     # then do this
+number of hurdles = 6
+while number_of_hurdles > 0:
+     jump()
+     number_of_hurdles -= 1
