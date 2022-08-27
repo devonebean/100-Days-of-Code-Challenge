@@ -86,3 +86,20 @@ while not at_goal():
         jump_hurdle()
     else:
         move()
+
+# robot maze game challenge
+# write a program to instruct a robot to navigate through a maze to get to a goal from a random location in the maze
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()    
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
+# code has edge case infinite loop bug
+# debug the infinite loop after Day 15
