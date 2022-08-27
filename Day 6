@@ -4,9 +4,9 @@ Day 6: Python Functions and Karel
 # defining function in python
 # defining function = defines your own function
 # def my_function():
-# do this
-    # then do this
-    # finally do this
+    # do this()
+    # then do this()
+    # finally do this()
 def my_function():
     print("Hello")
     print("Bye)
