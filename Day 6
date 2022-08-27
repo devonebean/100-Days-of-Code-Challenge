@@ -9,6 +9,7 @@ Day 6: Python Functions and Karel
     # finally do this()
 def my_function():
     print("Hello")
+    print("Welcome")
     print("Bye)
 my_function()
 
