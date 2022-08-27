@@ -6,22 +6,22 @@ Day 5: Python Loops
 # for item in list_of_items:
 fruits = ["apple", "peach", "pear"]
 for fruit in fruits:
-  print(fruit)
-  print(fruit + "pie")
+    print(fruit)
+    print(fruit + "pie")
 print(fruits)
 
 # average height project
 # write a program that calculates the average student height from a list of heights using for loops
 student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
-  student_heights[n] = int(student_heights[n])
+    student_heights[n] = int(student_heights[n])
 total_height = 0
 for height in student_heights:
-  total_height += height
+    total_height += height
 print(f"total height = {total_height}")
 number_of_students = 0
 for student in student_heights:
-  number_of_students += 1
+    number_of_students += 1
 print(f"number of students = {number_of_students}")  
 average_height = round(total_height / number_of_students)
 print(f"average height of students = {average_height})
@@ -30,19 +30,19 @@ print(f"average height of students = {average_height})
 # write a program that calculates the highest score from a list of scores
 student_scores = input("Input a list of student scores ").split()
 for n in range(0, len(student_scores)):
-  student_scores[n] = int(student_scores[n])
+   student_scores[n] = int(student_scores[n])
 print(student_scores)
 highest_score = 0
 for score in student_scores:
-  if score > highest_score:
-    highest_score = score
+    if score > highest_score:
+      highest_score = score
 print(f"The highest score in the class is: {highest_score}")
 
 # range function in python
 # range function = generates a range of numbers to loop through
 total = 0
 for number in range(1, 101):
-  total += number
+    total += number
 print(total)
 
 # adding evens project
@@ -60,14 +60,14 @@ print(total)
 # and if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "fizzbuzz"
 for number in range(1, 101):
 for number in range(1, 101):
-  if number % 3 == 0 and number % 5 == 0:
-    print("FizzBuzz")
-  elif number % 3 == 0:
-    print("Fizz")
-  elif number % 5 == 0:
-    print("Buzz")
-  else:
-    print(number)
+    if number % 3 == 0 and number % 5 == 0:
+      print("FizzBuzz")
+    elif number % 3 == 0:
+      print("Fizz")
+    elif number % 5 == 0:
+      print("Buzz")
+    else:
+      print(number)
     
 # shuffle function in python
 # shuffle = reorders the the items in a sepuence or list
@@ -88,25 +88,25 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 password = ""
 for char in range(1, nr_letters + 1):
-  password += random.choice(letters)
+    password += random.choice(letters)
 for char in range(1, nr_letters + 1):
-  password += random.choice(letters)
+    password += random.choice(letters)
 for char in range(1, nr_letters + 1):
-  password += random.choice(letters)
+    password += random.choice(letters)
 print(password)
 # hard level generator: order of characters randomised:
 # e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 password_list = []
 for char in range(1, nr_letters + 1):
-  password_list.append(random.choice(letters))
+    password_list.append(random.choice(letters))
 for char in range(1, nr_letters + 1):
-  password_list.append(random.choice(letters))
+    password_list.append(random.choice(letters))
 for char in range(1, nr_letters + 1):
-  password_list.append(random.choice(letters))
+    password_list.append(random.choice(letters))
 print(password_list)
 random.shuffle(password_list)
 print(password_list)
 password = ""
 for char in password_list:
-  password += char
+    password += char
 print(f"Your password is: {password}")
